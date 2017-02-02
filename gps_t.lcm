@@ -1,0 +1,18 @@
+package struct_gps;
+
+struct gps_t
+{
+    int64_t  timestamp;
+    double   latitude;
+    string   latsign;
+    double   longitude;
+    string   longsign;
+    double   HDOP;
+    double   altitude;
+    string   altunit;
+    double   easting;
+    double   northing;
+    int16_t  zone;
+    string   zonelet;
+   
+}
