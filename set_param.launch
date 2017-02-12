@@ -1,7 +1,0 @@
-<launch>
-	<!-- Parameters Node-->
-	<node pkg="parameters" type="parameters.py"
-		name= "check" />
-	<node pkg="parameters" type="set_parameters.py"
-		name= "set" />
-</launch>
